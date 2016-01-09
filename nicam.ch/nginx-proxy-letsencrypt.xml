@@ -10,27 +10,16 @@
 
 [center][font size=4]Nginx Change Log[/font][/center]
 [b]06.12.2015:[/b] Initial Release</Changes>
-  <Description>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache..[br]
+  <Description>Will automaticly proxy to other Docker Containers through http and https. SSL Certificates can be generated through LetsEncrypt. See documentation here https://hub.docker.com/r/dmp1ce/nginx-proxy-letsencrypt[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
   [b]443[/b] Standard HTTPS Port [br]
-  [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>https://www.nginx.com/</Project>
   <Registry>https://hub.docker.com/r/dmp1ce/nginx-proxy-letsencrypt</Registry>
   <Repository>dmp1ce/nginx-proxy-letsencrypt</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-  </Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
