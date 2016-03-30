@@ -3,7 +3,7 @@
 <Beta>False</Beta>
 <Category>Home Automation</Category>
 <Date>2016-03-30</Date>
-  <Name>Speech Controlled Home Automation</Name>
+  <Name>Speech</Name>
   <Support>https://github.com/nicam/speech</Support>
   <Overview>Speech bot home automation image.</Overview>
   <Description>Copy config.js.dist to config.js and forward /usr/src/app/config into it to configure. Forward Port 5000 outside the image to access it.
