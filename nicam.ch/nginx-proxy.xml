@@ -17,7 +17,7 @@
   </Description>
   <Project>https://www.nginx.com/</Project>
   <Registry>https://hub.docker.com/r/jwilder/nginx-proxy/</Registry>
-  <Repository>docker pull jwilder/nginx-proxy</Repository>
+  <Repository>jwilder/nginx-proxy</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
