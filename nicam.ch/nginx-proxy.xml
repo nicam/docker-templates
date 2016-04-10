@@ -3,7 +3,7 @@
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
 <Date>2016-04-10</Date>
-  <Name>jwilder/nginx-proxy</Name>
+  <Name>NginxProxy</Name>
   <Support>https://hub.docker.com/r/jwilder/nginx-proxy</Support>
   <Overview>nginx-proxy sets up a container running nginx and docker-gen. docker-gen generates reverse proxy configs for nginx and reloads nginx when containers are started and stopped.</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-icon.png'][/center]
