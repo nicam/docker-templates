@@ -17,7 +17,7 @@
   </Description>
   <Project>https://www.nginx.com/</Project>
   <Registry>https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/</Registry>
-  <Repository>docker pull jrcs/letsencrypt-nginx-proxy-companion</Repository>
+  <Repository>jrcs/letsencrypt-nginx-proxy-companion</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
