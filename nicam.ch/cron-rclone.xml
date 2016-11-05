@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Cron rClone</Category>
+<Date>2016-11-03</Date>
+  <Name>Speech</Name>
+  <Support>https://github.com/nicam/cron-rclone</Support>
+  <Overview>rClone Docker Container that runs of a cronjob.</Overview>
+  <Description>Mount /config and /data into it</Description>
+  <Project>https://github.com/nicam/cron-rclone</Project>
+  <Registry>https://hub.docker.com/r/nicam/cron-rclone/</Registry>
+  <Repository>nicam/cron-rclone</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/docker/appdata/dropbox</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/nas/Pictures</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner>https://lh4.googleusercontent.com/-3Y92Nd3Ep6Y/AAAAAAAAAAI/AAAAAAAAABg/hJ_ISW-Th1c/photo.jpg</Banner>
+  <Icon>https://lh4.googleusercontent.com/-3Y92Nd3Ep6Y/AAAAAAAAAAI/AAAAAAAAABg/hJ_ISW-Th1c/photo.jpg</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
