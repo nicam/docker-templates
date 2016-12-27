@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>DrMorse</Category>
+<Date>2016-12-27</Date>
+  <Name>drMorse</Name>
+  <Support>https://github.com/nicam/drMorse</Support>
+  <Overview>Liips Old IRC Bot</Overview>
+  <Description>Copy morse.db and token.js into a dir and mount in into /usr/src/app/data.
+  </Description>
+  <Project>https://github.com/nicam/drMorse</Project>
+  <Registry>https://hub.docker.com/r/nicam/drmorse/</Registry>
+  <Repository>nicam/drmorse</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/docker/appdata/drmorse</HostDir>
+      <ContainerDir>/usr/src/app/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner>http://findicons.com/files/icons/2773/pictonic_free/512/prog_nodejs02.png</Banner>
+  <Icon>http://findicons.com/files/icons/2773/pictonic_free/512/prog_nodejs02.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
