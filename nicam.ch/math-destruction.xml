@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Games</Category>
+<Date>2016-03-30</Date>
+  <Name>Math Destruction</Name>
+  <Support>https://github.com/nicam</Support>
+  <Overview>Game</Overview>
+  <Description>Game</Description>
+  <Project>https://github.com/nicam</Project>
+  <Registry>https://hub.docker.com/r/nicam/math-destruction/</Registry>
+  <Repository>nicam/math-destruction</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <Banner>http://findicons.com/files/icons/2773/pictonic_free/512/prog_nodejs02.png</Banner>
+  <Icon>http://findicons.com/files/icons/2773/pictonic_free/512/prog_nodejs02.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
