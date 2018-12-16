@@ -11,7 +11,7 @@
   <Description></Description>
   <Project>https://github.com/tellytv/telly</Project>
   <Registry>https://hub.docker.com/r/splattner/telly/</Registry>
-  <Repository>telly</Repository>
+  <Repository>splattner/telly</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
